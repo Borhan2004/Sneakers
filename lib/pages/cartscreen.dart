@@ -18,7 +18,10 @@ class CartScreen extends StatelessWidget {
         builder: (context, cart, child) {
           if (cart.items.isEmpty) {
             return const Center(
-              child: Text('Your cart is empty', style: TextStyle(fontSize: 18)),
+              child: Text(
+                'Your cart is empty..',
+                style: TextStyle(fontSize: 28),
+              ),
             );
           }
           // Calculate total sum

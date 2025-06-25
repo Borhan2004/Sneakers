@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
       create: (context) => CartProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Sneaker Marketplace',
         theme: ThemeData(primarySwatch: Colors.grey),
+        title: 'Sneaker Marketplace',
         home: IntroPage(),
       ),
     );
