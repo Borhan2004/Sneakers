@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.grey),
-        title: 'Sneaker Marketplace',
+
         home: IntroPage(),
       ),
     );
